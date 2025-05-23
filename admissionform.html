@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form | CodingHemal</title>
+</head>
+<body>
+    
+    <table>
+        <tr>
+            <td><img width="300px" src="images/DIU 01.png" alt="Admission Form"></td>
+            <td>
+                <h1>Daffodil International University</h1>
+                <h3>ADMISSION FORM</h3>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <form action="#">
+        <label for="studentname">Student's Name : </label>
+        <input type="text" name="studentname" id="studentname" placeholder="Enter Your Name" required>
+        <br>
+        <br>
+
+        <label for="fathername">Father's Name : </label>
+        <input type="text" name="fathername" id="fathername" placeholder="Enter Your Name" required>
+        <br>
+        <br>
+
+        <label for="mothername">Mother's Name : </label>
+        <input type="text" name="mothername" id="mothername" placeholder="Enter Your Name" required>
+        <br>
+        <br>
+
+        <label for="dateofbirth">Date Of Birth : </label>
+        <input type="date" name="date" id="dateofbirth" required>
+        
+        <label>Gender : </label>
+        
+        <input type="radio" name="gender" id="gender">
+        <label for="gender">Male</label>
+
+        <input type="radio" name="gender" id="gender">
+        <label for="gender">Female</label>
+        <br>
+        <br>
+        <br>
+
+        <label>Present Address : </label>
+        <br>
+        <br>
+
+        <label for="division">Divison : </label>
+        <input type="text" name="division" id="division" list="divisions" required>
+        <datalist id="divisions">
+            <option value="Dhaka">Dhaka</option>
+            <option value="Feni">Feni</option>
+            <option value="Gazipur">Gazipur</option>
+            <option value="Rangamati">Rangamati</option>
+        </datalist>
+        <br>
+        <br>
+
+        <label for="district">District : </label>
+        <input type="text" name="district" id="district" list="districts" required>
+        <datalist id="districts">
+            <option value="Dhaka">Dhaka</option>
+            <option value="Chittagong">Chittagong</option>
+            <option value="Rajshahi">Rajshahi</option>
+            <option value="Dhaka">Dhaka</option>
+            <option value="Chittagong">Chittagong</option>
+            <option value="Rajshahi">Rajshahi</option>
+        </datalist>
+        <br>
+        <br>
+
+        <label for="address">Address : </label>
+        <input type="text" name="address" id="address" placeholder="Enter Your Address" required>
+        <br>
+        <br>
+
+        
+    </form>
+</body>
+</html>
